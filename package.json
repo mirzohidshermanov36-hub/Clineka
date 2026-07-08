@@ -1,0 +1,16 @@
+{
+  "name": "bekzod-abdiyev",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-stack: frontend (Vue) + backend (Express+API) + Telegram bot",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend && npm install --prefix bot",
+    "build:frontend": "npm run build --prefix frontend",
+    "start": "npm run build:frontend && npm start --prefix backend",
+    "dev": "concurrently -n backend,frontend -c blue,green \"npm start --prefix backend\" \"npm run dev --prefix frontend\"",
+    "bot": "npm start --prefix bot"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

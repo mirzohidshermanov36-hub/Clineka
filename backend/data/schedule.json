@@ -1,0 +1,9 @@
+{
+  "dushanba": { "start": "09:00", "end": "18:00", "dayOff": false },
+  "seshanba": { "start": "09:00", "end": "18:00", "dayOff": false },
+  "chorshanba": { "start": "09:00", "end": "18:00", "dayOff": false },
+  "payshanba": { "start": "09:00", "end": "18:00", "dayOff": false },
+  "juma": { "start": "09:00", "end": "18:00", "dayOff": false },
+  "shanba": { "start": "09:00", "end": "14:00", "dayOff": false },
+  "yakshanba": { "start": "", "end": "", "dayOff": true }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1783507118186-323",
+    "name": "Shermanov MIrzohid",
+    "phone": "903544499",
+    "date": "10 Iyul 2026",
+    "time": "16:30",
+    "note": "men siz bilan korshmoqchiman",
+    "status": "confirmed",
+    "source": "site",
+    "telegramId": null,
+    "createdAt": "2026-07-08T10:38:38.186Z"
+  },
+  {
+    "id": "1783507209112-3905",
+    "name": "Shermanov Akrom",
+    "phone": "93 347 76 19",
+    "date": "25.07.2026",
+    "time": "17:90",
+    "note": "Men siz bilan uchrashmoqchiman",
+    "status": "confirmed",
+    "source": "bot",
+    "telegramId": 6699869629,
+    "createdAt": "2026-07-08T10:40:09.112Z"
+  }
+]
