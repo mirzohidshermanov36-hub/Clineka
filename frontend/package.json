@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "bekzod-abdiyev": "file:..",
@@ -15,6 +16,7 @@
   "devDependencies": {
     "@tailwindcss/vite": "^4.3.2",
     "@vitejs/plugin-vue": "^6.0.7",
+    "gh-pages": "^6.3.0",
     "tailwindcss": "^4.3.2",
     "vite": "^8.1.1"
   }

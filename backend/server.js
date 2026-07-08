@@ -3,7 +3,6 @@
 // Sayt -> backend -> bot (appointments) va bot -> backend -> sayt (services/videos/certificates/schedule/settings)
 // ikkala yo'nalishda ham shu fayl orqali ishlaydi.
 
-
 const path = require('path');
 require('dotenv').config({ path: path.join(__dirname, '.env') });
 
@@ -15,6 +14,7 @@ const fsNode = require('fs');
 const cors = require('cors');
 const https = require('https');
 const { spawn } = require('child_process');
+const { Telegraf } = require('telegraf');
 
 const { createBot } = require('../bot/bot');
 const { readJSON } = require('../bot/utils/db');
