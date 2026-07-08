@@ -14,7 +14,6 @@ const fsNode = require('fs');
 const cors = require('cors');
 const https = require('https');
 const { spawn } = require('child_process');
-const { Telegraf } = require('telegraf');
 
 const { createBot } = require('../bot/bot');
 const { readJSON } = require('../bot/utils/db');
